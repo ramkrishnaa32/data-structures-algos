@@ -20,6 +20,7 @@ class Solution:
             if count == 1:
                 return num
                 break
+    
     # Approach: Hashmap
     def singleNumberHashmap(self, nums: list[int]) -> int:
         nums_dict = {}
@@ -31,6 +32,7 @@ class Solution:
         for key, value in nums_dict.items():
             if value == 1:
                 return key
+    
     # Approach: Bit Manipulation
     def singleNumberBitManipulation(self, nums: list[int]) -> int:
         single_number = 0
@@ -41,7 +43,7 @@ class Solution:
     # Approach: Math
     def singleNumberMath(self, nums: list[int]) -> int:
         return 2 * sum(set(nums)) - sum(nums)
-
+            
 nums = [2, 2, 1, 5, 6, 6, 5]
 s = Solution()
 
