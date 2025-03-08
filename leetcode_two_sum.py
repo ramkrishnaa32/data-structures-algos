@@ -50,11 +50,9 @@ class Solution:
             nums_dict[value] = index
         return []
    
-    
 s = Solution()
 nums = [3, 2, 5, 3, 10]
 target = 6
-
 
 index_list = s.twoSum(nums, target)
 if len(index_list) == 0:
