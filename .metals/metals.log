@@ -1102,3 +1102,11 @@ SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at
 
 2025.03.20 22:46:23 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
 2025.03.20 22:46:23 INFO  time: compiled data-structures-algos_73d3709f2f in 0.21s
+Mar 20, 2025 10:51:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:51:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:51:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:52:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
