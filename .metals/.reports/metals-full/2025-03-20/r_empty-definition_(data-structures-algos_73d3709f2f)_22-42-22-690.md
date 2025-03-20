@@ -1,3 +1,14 @@
+error id: scala/Int.
+file://<WORKSPACE>/maximun_profit.scala
+empty definition using pc, found symbol in pc: scala/Int.
+found definition using semanticdb; symbol _empty_/Solution.maxProfit().(prices)
+|empty definition using fallback
+non-local guesses:
+	 -
+
+Document text:
+
+```scala
 
 /*
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -16,8 +27,8 @@ Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
 */
 
-object MaximumProfit {
-  def maximizeProfit(prices: List[Int]): Int = {
+object Solution {
+  def onePass(prices: List[Int]): Int = {
     var maxProfit = 0
     var minPrice = Int.MaxValue
     for (price <- prices) {
@@ -29,6 +40,11 @@ object MaximumProfit {
 
   def main(args: Array[String]): Unit = {
     val prices = Array(7, 6, 4, 3, 1, 9, 10, 11, 12)
-    println(s"Maximum profit: ${maximizeProfit(prices.toList)}")
+    println(s"Maximum profit: ${maximizeProfit(prices)}")
+  }
 }
-}
+```
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: scala/Int.

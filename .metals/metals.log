@@ -934,3 +934,171 @@ WARNING: Unsupported notification method: metals/windowStateDidChange
 2025.03.19 22:44:05 WARN  Unexpected exception com.microsoft.java.debug.core.DebugException: java.util.NoSuchElementException: None.get
 2025.03.19 22:44:14 INFO  Canceling debug proxy for [Solution]
 2025.03.19 22:44:14 INFO  Closing debug server tcp://0.0.0.0:56669
+Mar 19, 2025 10:45:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 19, 2025 10:45:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:29:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:29:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.20 10:30:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 10:30:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 10:30:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 10:30:04 INFO  Cancelling compilation on scala server
+2025.03.20 10:30:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 10:30:04 INFO  compiling data-structures-algos_73d3709f2f (1 scala source)
+2025.03.20 10:30:04 INFO  time: compiled data-structures-algos_73d3709f2f in 0.32s
+2025.03.20 10:30:05 INFO  time: Imported build in 0.36s
+2025.03.20 10:30:04 INFO  time: Imported build in 0.36s
+2025.03.20 10:30:05 INFO  running doctor check
+2025.03.20 10:30:04 INFO  running doctor check
+2025.03.20 10:30:05 INFO  java targets: data-structures-algos_73d3709f2f, data-structures-algos_73d3709f2f-test
+2025.03.20 10:30:04 INFO  java targets: data-structures-algos_73d3709f2f, data-structures-algos_73d3709f2f-test
+2025.03.20 10:30:06 INFO  time: indexed workspace in 1.25s
+2025.03.20 10:30:06 INFO  time: indexed workspace in 1.25s
+Mar 20, 2025 10:30:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:30:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:30:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:30:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:35:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:35:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.20 22:35:37 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II copy.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:37 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II copy.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:37 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II copy.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:45 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit_II copy.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:45 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:45 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/maximun_profit.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.20 22:35:46 INFO  compiling data-structures-algos_73d3709f2f (1 scala source)
+2025.03.20 22:35:45 INFO  running doctor check
+2025.03.20 22:35:45 INFO  java targets: data-structures-algos_73d3709f2f, data-structures-algos_73d3709f2f-test
+2025.03.20 22:35:47 INFO  time: indexed workspace in 0.95s
+Mar 20, 2025 10:35:58 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc:  (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-35-58-622.md)
+2025.03.20 22:36:01 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:36:01 INFO  time: compiled data-structures-algos_73d3709f2f in 0.16s
+Mar 20, 2025 10:38:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:39:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 20, 2025 10:40:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-40-43-160.md)
+Mar 20, 2025 10:40:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-40-43-160.md)
+2025.03.20 22:41:10 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:41:10 INFO  time: compiled data-structures-algos_73d3709f2f in 0.11s
+2025.03.20 22:41:16 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:41:16 INFO  time: compiled data-structures-algos_73d3709f2f in 91ms
+2025.03.20 22:41:26 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1502)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:831)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.20 22:41:26 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:41:26 INFO  time: compiled data-structures-algos_73d3709f2f in 0.12s
+2025.03.20 22:41:39 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1502)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:831)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Mar 20, 2025 10:42:22 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: scala/Int. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-42-22-690.md)
+Mar 20, 2025 10:42:24 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: scala/Int. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-42-22-690.md)
+Mar 20, 2025 10:42:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: scala/Int.MaxValue. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-42-29-124.md)
+Mar 20, 2025 10:43:01 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-40-43-160.md)
+2025.03.20 22:43:19 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:43:19 INFO  time: compiled data-structures-algos_73d3709f2f in 0.35s
+Mar 20, 2025 10:44:14 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SEVERE: empty definition using pc, found symbol in pc: `<none>`. (full report at: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/.reports/metals-full/2025-03-20/r_empty-definition_(data-structures-algos_73d3709f2f)_22-40-43-160.md)
+2025.03.20 22:45:24 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:24 INFO  time: compiled data-structures-algos_73d3709f2f in 0.22s
+2025.03.20 22:45:30 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:30 INFO  time: compiled data-structures-algos_73d3709f2f in 0.2s
+2025.03.20 22:45:30 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:30 INFO  time: compiled data-structures-algos_73d3709f2f in 0.2s
+2025.03.20 22:45:30 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:30 INFO  time: compiled data-structures-algos_73d3709f2f in 0.17s
+2025.03.20 22:45:31 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:31 INFO  time: compiled data-structures-algos_73d3709f2f in 0.15s
+2025.03.20 22:45:31 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:31 INFO  time: compiled data-structures-algos_73d3709f2f in 0.15s
+2025.03.20 22:45:31 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:31 INFO  time: compiled data-structures-algos_73d3709f2f in 0.15s
+2025.03.20 22:45:40 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:45:40 INFO  time: compiled data-structures-algos_73d3709f2f in 0.14s
+2025.03.20 22:46:23 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1502)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:831)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.20 22:46:23 INFO  compiling data-structures-algos_73d3709f2f (2 scala sources)
+2025.03.20 22:46:23 INFO  time: compiled data-structures-algos_73d3709f2f in 0.21s
