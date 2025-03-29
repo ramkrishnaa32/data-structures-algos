@@ -22,7 +22,6 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 object RemoveDuplicate {
     def removeDuplicate(nums: Array[Int]): Int = {
         if (nums.isEmpty) return 0
-
         var insertIndex = 1
         for (i <- 1 until nums.length) {
             if (nums(i) != nums(i - 1)) {

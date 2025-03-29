@@ -3478,3 +3478,600 @@ java.util.concurrent.TimeoutException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.lang.Thread.run(Thread.java:840)
 
+2025.03.26 23:19:55 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:19:55 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:19:57 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1502)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:831)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Mar 26, 2025 11:20:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:20:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:20:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:20:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.26 23:20:43 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+Mar 26, 2025 11:20:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:20:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.26 23:20:52 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:20:53 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:20:58 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:20:58 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:20:58 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:00 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:03 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:03 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:04 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:05 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:21:09 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Mar 26, 2025 11:21:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:21:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:22:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.26 23:22:32 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+Mar 26, 2025 11:22:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:22:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:23:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:27:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:27:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.26 23:27:16 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:16 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:17 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:16 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:18 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:23 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:36 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:40 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:27:55 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1502)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:831)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:27:55 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:09 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:09 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:10 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:10 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:10 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:19 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:28:41 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:43 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:43 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:43 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:43 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:28:44 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.26 23:29:12 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:29:14 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.6.3
+2025.03.26 23:29:17 INFO  Failed to run request with params InverseSourcesResult
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Mar 26, 2025 11:29:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 26, 2025 11:30:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Mar 27, 2025 10:01:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 27, 2025 10:01:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 27, 2025 10:03:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.03.27 10:03:30 INFO  Shutting down server
+2025.03.27 10:03:30 INFO  shutting down Metals
+2025.03.27 10:03:30 ERROR cancellation error
+java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.super$get(FutureConvertersImpl.scala:92)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.$anonfun$get$2(FutureConvertersImpl.scala:92)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.package$.blocking(package.scala:124)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.get(FutureConvertersImpl.scala:92)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:146)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:689)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1314)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1314)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1314)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:248)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:757)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:630)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:03:30 INFO  Exiting server
+2025.03.27 10:03:58 INFO  Started: Metals version 1.5.2 in folders '/Users/kramkrishnaachary/Learning/Github/data-structures-algos' for client Visual Studio Code 1.98.2.
+Mar 27, 2025 10:03:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.03.27 10:03:59 INFO  Attempting to connect to the build server...
+2025.03.27 10:03:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:03:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:156)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:173)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:219)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:491)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:491)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:156)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:173)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:219)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:491)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:491)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:03:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:04:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:04:59 WARN  Retrying connection to the build server scala
+2025.03.27 10:04:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:04:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:04:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:05:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:05:59 WARN  Retrying connection to the build server scala
+2025.03.27 10:05:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:05:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:05:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:06:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:06:59 WARN  Retrying connection to the build server scala
+2025.03.27 10:06:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:06:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:06:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:07:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:07:59 WARN  Retrying connection to the build server scala
+2025.03.27 10:07:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:07:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:07:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:08:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:08:59 WARN  Retrying connection to the build server scala
+2025.03.27 10:08:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json, --envs-file, /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json, /Users/kramkrishnaachary/Learning/Github/data-structures-algos)
+2025.03.27 10:08:59 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-options-v2.json --json-launcher-options /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-launcher-options.json --envs-file /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.scala-build/ide-envs.json /Users/kramkrishnaachary/Learning/Github/data-structures-algos' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/kramkrishnaachary/Learning/Github/data-structures-algos"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:08:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kramkrishnaachary/Learning/Github/data-structures-algos/.metals/bsp.trace.json or /Users/kramkrishnaachary/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.03.27 10:09:59 ERROR Timeout waiting for 'build/initialize' response
+2025.03.27 10:09:59 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:754)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:627)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.03.27 10:09:59 WARN  no build target for: /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala
+2025.03.27 10:09:59 INFO  no build target found for /Users/kramkrishnaachary/Learning/Github/data-structures-algos/remove_duplicates.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 10:10:00 INFO  time: code lens generation in 1.03s
+Mar 27, 2025 9:11:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 27, 2025 10:12:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 27, 2025 11:11:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 29, 2025 9:14:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 29, 2025 9:14:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 29, 2025 11:10:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
