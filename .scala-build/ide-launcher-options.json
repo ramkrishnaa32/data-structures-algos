@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"scalaRunner":{"cliUserScalaVersion":"3.6.3","cliPredefinedRepository":["file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2"],"progName":"scala","skipCliUpdates":true}}
+=======
+{"scalaRunner":{"cliUserScalaVersion":"3.6.4","cliPredefinedRepository":["file:///opt/homebrew/Cellar/scala/3.6.4/libexec/maven2"],"progName":"scala","skipCliUpdates":true}}
+>>>>>>> ba8330a (added scripts)
