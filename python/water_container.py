@@ -20,7 +20,6 @@ def maxArea(height):
             left += 1
         else:
             right -= 1
-
     return maxWater
 
 nums = [8, 7, 2, 1]
