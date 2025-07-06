@@ -20,7 +20,7 @@ class Solution:
             if count == 1:
                 return num
                 break
-    
+
     # Approach: Hashmap
     def singleNumberHashmap(self, nums: list[int]) -> int:
         nums_dict = {}
@@ -44,7 +44,7 @@ class Solution:
     def singleNumberMath(self, nums: list[int]) -> int:
         return 2 * sum(set(nums)) - sum(nums)
             
-nums = [2, 2, 1, 5, 6, 6, 5]
+nums = [2, 2, 1, 5, 6, 6, 5, 3, 1]
 s = Solution()
 
 print(f'Resule from Brute Force: {s.singleNumberBruteForce(nums)}')
