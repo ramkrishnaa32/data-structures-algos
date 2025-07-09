@@ -12,7 +12,6 @@ class Solution:
             result.append(product)
         return result
 
-
     def productExceptSelf2(self, nums: list[int]) -> list[int]:
         length = len(nums)
         result = [1] * length
@@ -30,7 +29,6 @@ class Solution:
             suffix *= nums[i]
 
         return result
-
 
 solution = Solution()
 print(solution.productExceptSelf(nums=[1,2,3,4]))
