@@ -14,7 +14,6 @@ class Solution:
 
         return maxWater
 
-
     def maxArea(self, height: list[int]) -> int:
         left = 0
         right = len(height) - 1

@@ -23,7 +23,6 @@ class Solution:
 
         return slow
 
-
 nums = [1, 3, 4, 2, 2]
 s = Solution()
 result = s.findDuplicate(nums)
