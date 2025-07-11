@@ -52,7 +52,7 @@ class Solution:
    
 s = Solution()
 nums = [3, 2, 5, 3, 10]
-target = 6
+target = 13
 
 index_list = s.twoSum(nums, target)
 if len(index_list) == 0:
