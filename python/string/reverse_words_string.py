@@ -35,6 +35,6 @@ class Solution:
 
 obj = Solution()
 
-s = "  hello world  "
+s = "  hello    world  "
 result = obj.reverseWords(s)
 print(f"reversed string: {result}")
