@@ -19,10 +19,16 @@ Now s has no occurrences of "abc".
 
 class Solution:
     def removeOccurrences(self, s: str, part: str) -> str:
-        while part in s:
-            s = s.replace(part, "")
-            print(s)
-        return s
+        stack = []
+        part_len = len(part)
+
+        for ch in s:
+            stack.append(ch)
+            # Check if the last few characters match 'part'
+            if len(stack) >= part_len and ''.join(stack[-part_len:]) == part:
+                del stack[-part_len:]  # Remove last 'part_len' characters
+
+        return ''.join(stack)
 
 s = "daabcbaabcbc"
 part = "abc"
