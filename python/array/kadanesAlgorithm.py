@@ -35,3 +35,6 @@ nums = [3, -4, 5, 4, -1, 7, -8]
 subarray, max_sum = find_max_subarray(nums)
 print(f"finalSubArray: {subarray}, maxSum: {max_sum}")
 
+nums = [-3, -4, -5, -4, -1, -7, -8]
+subarray, max_sum = find_max_subarray(nums)
+print(f"finalSubArray: {subarray}, maxSum: {max_sum}")
