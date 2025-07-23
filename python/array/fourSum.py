@@ -23,7 +23,17 @@ class Solution(object):
         nums.sort()
 
         for i in range(n):
+
+            # Skip duplicates for i
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+
             for j in range(i + 1, n):
+
+                # Skip duplicates for j
+                if j > i + 1 and nums[j] == nums[j - 1]:
+                    continue
+
                 total = nums[i] + nums[j]
                 left = j + 1
                 right = n - 1
