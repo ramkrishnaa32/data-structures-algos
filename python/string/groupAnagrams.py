@@ -12,7 +12,6 @@ output: [['eat', 'tae'], ['cba', 'abc'], ['xyz']]
 
 from collections import defaultdict
 
-
 class Solution:
     def groupAnagramsBruteForce(self, word_list):
         result = {}

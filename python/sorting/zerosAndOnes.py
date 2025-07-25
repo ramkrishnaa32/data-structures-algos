@@ -1,3 +1,18 @@
+"""
+Problem Statement:
+Given a list of integers containing only 0s and 1s, rearrange the list in-place
+so that all 0s appear before all 1s.
+
+What is required:
+- Modify the original list so that all 0s are on the left side,
+  and all 1s are on the right side.
+- The relative order of 0s and 1s does not matter.
+
+Example:
+Input: [0, 1, 0, 1, 1, 0, 0, 1]
+Output: [0, 0, 0, 0, 1, 1, 1, 1]
+"""
+
 class Solution:
     def zerosAndOnes(self, nums):
         left = 0
