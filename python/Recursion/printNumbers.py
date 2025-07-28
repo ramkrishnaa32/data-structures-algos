@@ -20,7 +20,7 @@ class Solutions:
             print(1, end="\n")  # Base case: print 1 and newline
             return
 
-        print(num, end=', ')  # Print current number with space
+        print(num, end=', ')  # Print the current number with space
         self.printNumbers(num - 1)  # Recursive call
 
 if __name__ == '__main__':
